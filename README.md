@@ -41,18 +41,6 @@ La estructura debe quedar asi:
     notebooks/
       reporte.ipynb
 
-## Como correr el notebook
-
-Se necesita Python con las siguientes bibliotecas:
-
-    pip install tensorflow numpy pandas matplotlib scikit-learn notebook nbconvert
-
-El notebook se puede abrir en Jupyter o en VS Code y correr celda por celda, o ejecutarse completo desde la raiz del repositorio:
-
-    python -m nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=7200 notebooks/reporte.ipynb
-
-La ejecucion completa entrena los dos modelos y tarda alrededor de 30 minutos en CPU. Al reentrenar, las cifras pueden cambiar un poco respecto a las del reporte.
-
 ## Resultados
 
 Accuracy de cada modelo, en por ciento:
