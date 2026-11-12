@@ -15,6 +15,7 @@ Se clasifica la imagen de un globulo blanco en uno de cuatro tipos: eosinofilo, 
 - notebooks/reporte.ipynb: reporte completo, con las secciones Introduccion, Datos, Desarrollo del modelo, Ajuste del modelo, Resultados, Conclusiones y Aplicacion. Todas las celdas estan ejecutadas.
 - modelos/modelo_base.keras: modelo base (arquitectura y pesos).
 - modelos/modelo_ajustado.keras: modelo final, con aumento de datos y dropout (arquitectura y pesos).
+- data/dataset2-master: imagenes del dataset, separadas en TRAIN, TEST y TEST_SIMPLE.
 
 ## Datos
 
@@ -22,13 +23,7 @@ Se usa el dataset Blood Cell Images de Paul Mooney, disponible en Kaggle:
 
 https://www.kaggle.com/datasets/paultimothymooney/blood-cells
 
-El dataset no se incluye en el repositorio por su peso. Para correr el notebook:
-
-1. Descargar el zip desde la liga anterior y descomprimirlo.
-2. Crear una carpeta data en la raiz del repositorio.
-3. Copiar dentro de data la carpeta dataset2-master que contiene la carpeta images.
-
-La estructura debe quedar asi:
+El dataset esta incluido en el repositorio, en la carpeta data/dataset2-master, asi que no hace falta descargarlo para correr el notebook. La estructura es la siguiente:
 
     data/
       dataset2-master/
